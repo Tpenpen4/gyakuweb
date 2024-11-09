@@ -1,0 +1,122 @@
+/* 見た目 */
+body {
+    background: #14142b;
+    color: #fff;
+}
+h1,p,li {
+    color: #fff;
+    padding-left: 1%;
+}
+a {
+    color:cadetblue;
+}
+
+body {
+  font-family: "Noto Sans JP", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* レスポンシブ並び */
+.contents {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.flexbox {
+    display: flex;
+}
+.box1 {
+    width: 50%;
+    margin: auto .5rem;
+}
+.box2 {
+    width: 50%;
+    margin: auto .5rem;
+}
+@media screen and (max-width: 767px) {
+    .flexbox {
+        display: block;
+    }
+    .flexbox .box1 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .flexbox .box2 {
+        width: 100%;
+        margin: 0 auto;
+        color: #ccc;
+    }
+}
+/* 終わり */
+/* テキストエリア */
+  .large-textarea,
+.textbox-4-label {
+    color: #e5e5e5;
+}
+
+.textbox-4-label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: .9em;
+}
+
+.large-textarea {
+    width: 95%;
+    padding: 8px 10px;
+    border: 1px solid #555;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 1em;
+    line-height: 1.5;
+    resize: none;
+}
+
+.large-textarea:focus{
+    outline: 1px solid #fff;
+}
+
+.large-textarea::placeholder {
+    color: #666;
+}
+.textbox-5,
+.textbox-5-label {
+    color: #e5e5e5;
+}
+
+.textbox-5-label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: .9em;
+}
+
+.textbox-5 {
+    width: 95%;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #24282e;
+    font-size: 1em;
+    line-height: 1.5;
+    resize: none;
+    opacity: 1;
+}
+
+.textbox-5:focus{
+    outline: 1px solid #fff;
+}
+
+.textbox-5::placeholder {
+    color: rgba(255,255,255,.5);
+}
+.char-count {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 14px;
+    color: #666;
+    background-color: #fff;
+    padding: 2px 5px;
+    border-radius: 4px;
+  }

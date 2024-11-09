@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>逆翻訳ツール</title>
+<meta property="og:locale" content="ja_JP"/>
+<meta property="og:site_name" content="逆翻訳ツール"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="逆翻訳ツール"/>
+<meta property="og:description" content="逆翻訳をするツール"/>
+<meta property="og:url" content="https://tpenpen4.com/gyaku"/>
+<meta property="og:image" content="https://tpenpen4.com/gyaku/"/>
+<meta property="og:image:secure_url" content="https://tpenpen4.com/gyaku"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="@Tpenpen4"/>
+<meta name="twitter:title" content="逆翻訳をするツール"/>
+<meta name="twitter:description" content="逆翻訳をするツール"/>
+<meta name="twitter:image" content="https://tpenpen4.com/gyaku"/>
+<meta name="robots" content="max-image-preview:large">
+<meta name="description" content="逆翻訳ツール"/>
+<meta name="news_keywords" content="逆翻訳,翻訳,テキスト変換,よん,よん。,tpenpen4"/>
+<link rel="stylesheet" href="style2.css?ver3">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+<style>*{scroll-behavior:smooth}</style>
+</head>
+<body>
+    <h1>逆翻訳ツールβ</h1>
+    <div class="contents">
+        <div class="flexbox">
+            <div class="box1">
+                <label>
+                    <span class="textbox-4-label">逆翻訳する内容</span>
+                    <textarea class="large-textarea" class="textbox-4" id="userInput" maxlength="200" placeholder="こんにちは"></textarea>
+                </label>
+                <div class="char-count">0 / 200</div>
+            </div>
+            <div class="box2">
+                <label>
+                    <span class="textbox-5-label">逆翻訳結果</span>
+                    <textarea class="textbox-5" id="result" placeholder="別れ" disabled></textarea>
+                </label>
+            </div>
+            </div>
+        </div>
+    </div>
+    <h1>注意事項</h1>
+    <ul>
+        <li>UIがダサいことについてはご理解ください。</li>
+        <li>本ツールはベータ版ですので、結構な頻度でエラーが出たりします。開発者はほとんどの場合、把握済みなため問い合わせは不要です。</li>
+        <li>使いすぎると使えなくなります（全員が）</li>
+    </ul>
+    <h1>現在確認しているエラー</h1>
+    <ul>
+        <li>長文でエラー</li>
+        <li>一日のリクエスト上限越えエラー</li>
+        <li>０文字になったことによるエラー</li>
+        <li>よくわかんないけど生成中にたまになるエラー</li>
+    </ul>
+    <h1>お問い合わせ</h1>
+    <p>なんかあったら、<a href="mailto:support@mail.tpenpen4.com">support@mail.tpenpen4.com</a>までどうぞ</p>
+    <br><br>
+    <a href="changelog/">チェンジログ</a>
+    <script src="script.js"></script>
+</body>
+</html>
